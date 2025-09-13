@@ -32,7 +32,6 @@ function calculate() {
             document.getElementById("result").innerText = `${value} is ${result.toFixed(2)}% of ${percentage}`;
             break;
 
-
         case "increase":
             result = value + (value * percentage) / 100;
             document.getElementById("result").innerText = `${value} increased by ${percentage}% is: ${result}`;
