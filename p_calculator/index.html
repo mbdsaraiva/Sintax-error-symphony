@@ -10,6 +10,15 @@
     <div class = "container">
         <h1>Percentage Calculator</h1>
 
+        <label for="calcType">Choose calculaton:</label>
+        <select name="calcType" id="calcType">
+            <option value="xOfY">How much is X% of Y</option>
+            <option value="xIsOfY">X is what % of Y</option>
+            <option value="increase">Increase of X% in Y</option>
+            <option value="discount">Discount of X% in Y</option>
+        </select>
+
+        <br>
         <label for="value">Value: </label>
         <input type="number" name="value" id="value" placeholder="Enter the value">
         
