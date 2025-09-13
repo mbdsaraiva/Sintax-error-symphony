@@ -1,4 +1,4 @@
-function calcular() {
+function calculate() {
     let value = parseFloat(document.getElementById("value").value);
     let percentage = parseFloat(document.getElementById("percentage").value);
     let type = document.getElementById("calcType").value;
